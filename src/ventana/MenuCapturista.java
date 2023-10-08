@@ -89,9 +89,8 @@ public class MenuCapturista extends javax.swing.JFrame implements Runnable {
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         btn_vwntas = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
         panelcontenedor = new javax.swing.JPanel();
         panelPrecentacion = new javax.swing.JPanel();
         txt_hora = new javax.swing.JLabel();
@@ -202,20 +201,15 @@ public class MenuCapturista extends javax.swing.JFrame implements Runnable {
         });
         btn_vwntas.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8_sale_price_tag_30px.png"))); // NOI18N
-        btn_vwntas.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 12, 30, -1));
-
-        jLabel15.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel15.setText("Ventas");
-        btn_vwntas.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 190, 50));
-
-        panel_datos.add(btn_vwntas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 240, 50));
-
         jLabel13.setFont(new java.awt.Font("Roboto Medium", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
         jLabel13.setText("Ventas");
-        panel_datos.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 300, 190, 50));
+        btn_vwntas.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 0, 190, 50));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/icons8_sale_price_tag_30px.png"))); // NOI18N
+        btn_vwntas.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 12, 30, -1));
+
+        panel_datos.add(btn_vwntas, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 240, 240, 50));
 
         getContentPane().add(panel_datos, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 240, 640));
 
@@ -411,7 +405,6 @@ public class MenuCapturista extends javax.swing.JFrame implements Runnable {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel6;
